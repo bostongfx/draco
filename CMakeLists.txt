@@ -12,7 +12,7 @@ project(draco C CXX)
 
 set(draco_root "${CMAKE_CURRENT_SOURCE_DIR}")
 set(draco_src_root "${draco_root}/src/draco")
-set(draco_build_dir "${CMAKE_BINARY_DIR}")
+set(draco_build_dir "${draco_BINARY_DIR}")
 
 if ("${draco_root}" STREQUAL "${draco_build_dir}")
   message(FATAL_ERROR
